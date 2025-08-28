@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Square box</title>
+    <style>
+        #rectangle {
+            height: 150px;
+            width: 150px;
+            background-color: rgb(170, 165, 165);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #rectangle2 {
+            height: 100px;
+            width: 100px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #rectangle3 {
+            height: 50px;
+            width: 50px;
+            background-color: rgb(161, 128, 128)
+        }
+    </style>
+
+<body>
+    <h3>Rectangle</h3>
+    <div id="rectangle" onclick="rectangle()">
+        <div id="rectangle2" onclick="rectangle2(event)">
+            <div id="rectangle3" onclick="rectangle3(event)"></div>
+        </div>
+    </div>
+    <script src="squarebox.js"></script>
+</body>
+</head>
+
+</html>
